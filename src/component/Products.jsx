@@ -145,10 +145,10 @@
 
 import React from 'react';
 import Footer from '../component/Footer';
-import { productCart } from './Constant/Index';
 import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
 import { useNavigate } from 'react-router-dom';
+import { productCart } from '../Constant/Index';
 
 const Products = () => {
   const { addToCart } = useCart();
